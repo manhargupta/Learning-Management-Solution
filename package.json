@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run typings && npm run compile",
+    "postinstall": "npm run typings && npm run compile"
   },
   "author": "Manhar Gupta",
   "license": "ISC",

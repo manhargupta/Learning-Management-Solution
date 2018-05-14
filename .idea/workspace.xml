@@ -4,18 +4,7 @@
     <list default="true" id="ae09bcb3-bc67-46a7-af68-859ce1310e45" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/StudentsRouteActions/studentsActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/StudentsRouteActions/studentsActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/students.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/students.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/studentsRoutes/students.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/studentsRoutes/students.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +34,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="108">
+              <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -325,12 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526274880664</updated>
-      <workItem from="1526274882347" duration="31764000" />
+      <workItem from="1526274882347" duration="31840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31764000" />
+    <option name="totallyTimeSpent" value="31840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -594,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
