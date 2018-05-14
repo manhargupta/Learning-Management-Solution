@@ -5,11 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/models/db.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/lms.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,112 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="batches.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-              <folding>
-                <element signature="e#33#81#0" expanded="true" />
-                <element signature="e#288#326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lectures.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="32" />
-              <folding>
-                <element signature="e#33#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="lectureActions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-              <folding>
-                <element signature="e#33#63#0" expanded="true" />
-                <element signature="e#111#168#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/db.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="e#33#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="batchesActions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teachers.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/teachers.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#33#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="courses.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-              <folding>
-                <element signature="e#33#81#0" expanded="true" />
-                <element signature="e#279#315#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -190,10 +94,12 @@
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts" />
         <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" />
-        <option value="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" />
         <option value="$PROJECT_DIR$/src/models/db.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts" />
+        <option value="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" />
         <option value="$PROJECT_DIR$/src/server.ts" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -231,11 +137,6 @@
             <path>
               <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,60 +144,6 @@
               <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="CoursesRouteActions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentsRouteActions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="teachersRouteActions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="coursesRoutes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="subjectRoutes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="teachersRoutes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,12 +212,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526274880664</updated>
-      <workItem from="1526274882347" duration="35714000" />
+      <workItem from="1526274882347" duration="37643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35714000" />
+    <option name="totallyTimeSpent" value="37643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -381,10 +228,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28281462" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28281462" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -403,9 +250,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -464,30 +308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/modelsI.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,36 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/studentsRoutes/students.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/StudentsRouteActions/studentsActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,30 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/db.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#33#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -634,18 +408,109 @@
     <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/StudentsRouteActions/studentsActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/studentsRoutes/students.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="176">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding>
             <element signature="e#33#63#0" expanded="true" />
             <element signature="e#111#168#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/db.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#33#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>

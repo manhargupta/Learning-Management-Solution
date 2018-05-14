@@ -43,7 +43,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var sequelize_1 = __importDefault(require("sequelize"));
 var db = new sequelize_1.default('lms', '', '', {
-    host: 'localhost',
     dialect: 'sqlite',
     pool: {
         max: 5,
