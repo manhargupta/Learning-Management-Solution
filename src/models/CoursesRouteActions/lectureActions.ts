@@ -77,4 +77,22 @@ export class LectureService {
             })
         })
     }
+
+    public static async updateLecture(updateLecture:Ilecture):Promise<[number,Ilecture[]]> {
+        return await models.Lecture.update({
+            name: updateLecture.name
+        }, {
+            where: {
+                id: updateLecture.id
+            }
+        });
+    }
+
+    public static async deleteLecture(deleteLecture:Ilecture):Promise<number> {
+        return await models.Lecture.destroy({
+            where: {
+                id: deleteLecture.id
+            }
+        });
+    }
 }

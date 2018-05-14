@@ -75,9 +75,9 @@ route.put('/:bid', (req:Request, res:Response) => {
 /*  delete Request
     path :- /courses/1/batches/1
  */
-route.delete('/:id', (req:Request, res:Response) => {
+route.delete('/:bid', (req:Request, res:Response) => {
     let deleteBatch:IBatch={
-        id:req.params.id,
+        id:req.params.bid,
         name:''
     }
     BatchesService.deleteBatch(deleteBatch).then((batch:number)=>{

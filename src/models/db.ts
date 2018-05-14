@@ -11,12 +11,12 @@ declare global {
     };
 }
 
-const db = new Sequelize('lms', 'manhargupta', 'password', {
-    host: 'localhost',
+const db = new Sequelize('lms', 'heroku', 'heroku009$', {
+    host: 'heroku.cde284icbqmy.us-east-2.rds.amazonaws.com ',
     dialect: 'mysql',
     pool: {
         max: 5,
-        min: 0,
+        min: 1,
         idle: 5000
     }
 });
