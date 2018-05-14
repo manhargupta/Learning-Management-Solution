@@ -17,7 +17,7 @@ route.get('/', (req:Request, res:Response) => {
 
 route.get('/:sid', (req:Request, res:Response) => {
 
-    SubjectService.getSubjectById(req.params.sid).then((subject:ISubject|null)=>{
+    SubjectService.getCourseSubjectById(req.params.id,req.params.sid).then((subject:ISubject|null)=>{
         res.status(200).send(subject);
     })
 });

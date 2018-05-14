@@ -67,6 +67,26 @@ var SubjectService = /** @class */ (function () {
             });
         });
     };
+    SubjectService.getCourseSubjectById = function (cid, sid) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Course.findOne({
+                            where: {
+                                id: cid
+                            },
+                            include: [{
+                                    model: db_1.models.Subject,
+                                    where: {
+                                        id: sid
+                                    }
+                                }]
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
     SubjectService.addSubject = function (courseId, newSubject) {
         return new Promise(function (resolve, reject) {
             db_1.models.Subject.create({

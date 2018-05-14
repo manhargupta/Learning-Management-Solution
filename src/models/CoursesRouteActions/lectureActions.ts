@@ -2,7 +2,7 @@ import {IBatch, Ilecture} from "../modelsI";
 import {models} from "../db";
 import {BatchesService} from "./batchesActions";
 import {SubjectService} from "./subjectActions";
-import {getTeacherById} from "../teachersRouteActions/teachersActions";
+import {TeachersService} from "../teachersRouteActions/teachersActions";
 
 
 
@@ -66,7 +66,7 @@ export class LectureService {
             }).then((lecture:any)=>{
                 BatchesService.getBatchById(courseId,batchId).then((batch:any)=>{
                     SubjectService.getSubjectById(subjectId).then((subject:any)=>{
-                        getTeacherById(teacherId).then((teacher:any)=>{
+                        TeachersService.getTeacherById(teacherId).then((teacher:any)=>{
                             batch.addLecture(lecture);
                             subject.setLecture(lecture)
                             teacher.setLecture(lecture)

@@ -6,13 +6,22 @@ export class SubjectService {
 
     public static async getAllSubjects(): Promise<ISubject[] | null> {
         return await  models.Subject.findAll({
-            attributes: ['id', 'name']
+            attributes: ['id', 'name'],
         });
     }
 
     public static async getSubjectById(id: number): Promise<ISubject | null> {
         return await models.Subject.findById(id, {
             attributes: ['id', 'name']
+        })
+    }
+
+    public static async getSubjectTeachers(id: number): Promise<ISubject | null> {
+        return await models.Subject.findById(id, {
+            attributes: [],
+            include:[{
+                model:models.Teacher
+            }]
         })
     }
 
@@ -24,7 +33,7 @@ export class SubjectService {
         })
     }
 
-    public static async updateSubject(id: number, name: string): Promise<any | null> {
+    public static async updateSubject(id: number, name: string): Promise<[number,ISubject[]]> {
         return await models.Subject.update({name: name}, {
             where: {
                 id: id

@@ -3,18 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="ae09bcb3-bc67-46a7-af68-859ce1310e45" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/db.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/subjectActions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/SubjectRouteActions/subjectActions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/teachersRouteActions/teachersActions.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/subjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/subjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/subjects.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/subjects.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/subjectRoutes/subject.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/teachersRoutes/teachers.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/teachersRoutes/teachers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/teachersRoutes/teachers.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/teachersRoutes/teachers.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lms.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/lms.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +49,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teachers.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subjectActions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="144">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/readme.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="subjects.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="e#33#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batches.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-184">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+              <folding>
+                <element signature="e#33#81#0" expanded="true" />
+                <element signature="e#288#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courses.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="e#33#81#0" expanded="true" />
+                <element signature="e#279#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lectureActions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,12 +194,7 @@
         <option value="$PROJECT_DIR$/src/models/subjectActions.ts" />
         <option value="$PROJECT_DIR$/src/models/teachersActions.ts" />
         <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/teachersActions.ts" />
-        <option value="$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts" />
-        <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/teachers.ts" />
-        <option value="$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts" />
-        <option value="$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/utilities/functions.ts" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/students.ts" />
         <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts" />
@@ -93,13 +205,18 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts" />
-        <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" />
         <option value="$PROJECT_DIR$/src/models/db.ts" />
-        <option value="$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts" />
-        <option value="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" />
         <option value="$PROJECT_DIR$/src/server.ts" />
-        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts" />
+        <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" />
+        <option value="$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts" />
+        <option value="$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts" />
+        <option value="$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts" />
+        <option value="$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts" />
+        <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -137,6 +254,11 @@
             <path>
               <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,6 +266,54 @@
               <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="CoursesRouteActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="SubjectRouteActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="teachersRouteActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="coursesRoutes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="subjectRoutes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningManagementSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningManagementSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="teachersRoutes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +335,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manhargupta\WebstormProjects\LearningManagementSolution\public" />
       <recent name="C:\Users\manhargupta\WebstormProjects\LearningManagementSolution\src\models" />
       <recent name="C:\Users\manhargupta\WebstormProjects\LearningManagementSolution" />
     </key>
@@ -212,23 +383,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526274880664</updated>
-      <workItem from="1526274882347" duration="37643000" />
+      <workItem from="1526274882347" duration="41520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37643000" />
+    <option name="totallyTimeSpent" value="41520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28281462" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28281462" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32882273" />
@@ -281,33 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#33#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/modelsI.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -346,38 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="e#33#81#0" expanded="true" />
-            <element signature="e#279#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <element signature="e#33#81#0" expanded="true" />
-            <element signature="e#288#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -412,42 +524,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -469,34 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="e#33#63#0" expanded="true" />
-            <element signature="e#111#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/db.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -507,10 +561,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
+            <element signature="e#111#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/SubjectRouteActions/subjectActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/teachersRouteActions/teachersActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/subjectRoutes/subject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" selection-start-line="31" selection-end-line="67" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/teachersRoutes/teachers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#81#0" expanded="true" />
+            <element signature="e#288#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/courses.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#33#81#0" expanded="true" />
+            <element signature="e#279#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/subjects.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#33#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/CoursesRouteActions/subjectActions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/readme.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>

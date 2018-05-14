@@ -112,7 +112,7 @@ var LectureService = /** @class */ (function () {
             }).then(function (lecture) {
                 batchesActions_1.BatchesService.getBatchById(courseId, batchId).then(function (batch) {
                     subjectActions_1.SubjectService.getSubjectById(subjectId).then(function (subject) {
-                        teachersActions_1.getTeacherById(teacherId).then(function (teacher) {
+                        teachersActions_1.TeachersService.getTeacherById(teacherId).then(function (teacher) {
                             batch.addLecture(lecture);
                             subject.setLecture(lecture);
                             teacher.setLecture(lecture);

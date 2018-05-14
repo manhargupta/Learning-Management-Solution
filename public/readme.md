@@ -25,6 +25,3 @@ run - "npm start" and open localhost:7777
 /students
 /students/:id
 /students/:id/batches
-
-# License
-License to Manhar Gupta

@@ -67,4 +67,12 @@ route.put('/:id', (req: Request, res: Response) => {
     }
 })
 
+route.get('/:id/teachers', (req: Request, res: Response) => {
+
+    let id = req.params.id;
+    SubjectService.getSubjectTeachers(id).then((teachers: ISubject | null) => {
+        res.status(200).json(teachers);
+    })
+})
+
 export default route;

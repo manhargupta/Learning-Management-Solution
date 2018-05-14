@@ -62,5 +62,11 @@ route.put('/:id', function (req, res) {
         res.status(400).json(functions_1.default(err.toString()));
     }
 });
+route.get('/:id/teachers', function (req, res) {
+    var id = req.params.id;
+    subjectActions_1.SubjectService.getSubjectTeachers(id).then(function (teachers) {
+        res.status(200).json(teachers);
+    });
+});
 exports.default = route;
 //# sourceMappingURL=subject.js.map

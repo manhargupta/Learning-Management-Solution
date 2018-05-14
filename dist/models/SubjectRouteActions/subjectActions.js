@@ -45,7 +45,7 @@ var SubjectService = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, db_1.models.Subject.findAll({
-                            attributes: ['id', 'name']
+                            attributes: ['id', 'name'],
                         })];
                     case 1: return [2 /*return*/, _a.sent()];
                 }
@@ -58,6 +58,21 @@ var SubjectService = /** @class */ (function () {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, db_1.models.Subject.findById(id, {
                             attributes: ['id', 'name']
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    SubjectService.getSubjectTeachers = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Subject.findById(id, {
+                            attributes: [],
+                            include: [{
+                                    model: db_1.models.Teacher
+                                }]
                         })];
                     case 1: return [2 /*return*/, _a.sent()];
                 }

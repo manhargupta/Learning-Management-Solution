@@ -37,43 +37,78 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var subjectActions_1 = require("../CoursesRouteActions/subjectActions");
 var db_1 = require("../db");
-function getTeachers() {
-    return __awaiter(this, void 0, void 0, function () {
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, db_1.models.Teacher.findAll({
-                        include: [{
-                                model: db_1.models.Subject
-                            }]
-                    })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-exports.getTeachers = getTeachers;
-function getTeacherById(id) {
-    return __awaiter(this, void 0, void 0, function () {
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, db_1.models.Teacher.findById(id)];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-exports.getTeacherById = getTeacherById;
-function addTeacher(newTeacher, subjectId) {
-    return new Promise(function (resolve, reject) {
-        db_1.models.Teacher.create({
-            name: newTeacher.name
-        }).then(function (teacher) {
-            subjectActions_1.SubjectService.getSubjectById(subjectId).then(function (subject) {
-                teacher.addSubject(subject);
-                resolve(teacher);
+var TeachersService = /** @class */ (function () {
+    function TeachersService() {
+    }
+    TeachersService.getTeachers = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Teacher.findAll({
+                            include: [{
+                                    model: db_1.models.Subject
+                                }]
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
             });
         });
-    });
-}
-exports.addTeacher = addTeacher;
+    };
+    TeachersService.getTeacherById = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Teacher.findById(id, {
+                            include: [{
+                                    model: db_1.models.Subject
+                                }]
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    TeachersService.deleteTeacher = function (id) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Teacher.destroy({
+                            where: {
+                                id: id
+                            }
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    TeachersService.updateeacher = function (id, name) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Teacher.update({ name: name }, {
+                            where: {
+                                id: id
+                            }
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    TeachersService.addTeacher = function (newTeacher, subjectId) {
+        return new Promise(function (resolve, reject) {
+            db_1.models.Teacher.create({
+                name: newTeacher.name
+            }).then(function (teacher) {
+                subjectActions_1.SubjectService.getSubjectById(subjectId).then(function (subject) {
+                    teacher.addSubject(subject);
+                    resolve(teacher);
+                });
+            });
+        });
+    };
+    return TeachersService;
+}());
+exports.TeachersService = TeachersService;
 //# sourceMappingURL=teachersActions.js.map

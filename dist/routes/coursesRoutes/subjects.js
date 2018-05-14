@@ -15,7 +15,7 @@ route.get('/', function (req, res) {
     });
 });
 route.get('/:sid', function (req, res) {
-    subjectActions_1.SubjectService.getSubjectById(req.params.sid).then(function (subject) {
+    subjectActions_1.SubjectService.getCourseSubjectById(req.params.id, req.params.sid).then(function (subject) {
         res.status(200).send(subject);
     });
 });
