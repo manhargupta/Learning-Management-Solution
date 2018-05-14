@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run build",
     "build": "tsc",
-    "start": "node build/index.js"
+    "start": "node build/server.js"
   },
   "author": "Manhar Gupta",
   "license": "ISC",
