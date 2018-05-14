@@ -110,6 +110,7 @@ Batch.belongsTo(Course);
 Course.hasMany(Batch);
 Course.belongsToMany(Subject, { through: 'course_subject', onDelete: 'cascade' });
 Teacher.belongsToMany(Subject, { through: 'teacher_subject', onDelete: 'cascade' });
+Subject.belongsToMany(Teacher, { through: 'teacher_subject', onDelete: 'cascade' });
 Lecture.belongsTo(Batch);
 Batch.hasMany(Lecture);
 Lecture.belongsTo(Subject);

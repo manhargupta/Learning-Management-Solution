@@ -93,6 +93,7 @@ Course.hasMany(Batch)
 Course.belongsToMany(Subject,{through: 'course_subject',onDelete : 'cascade'});
 
 Teacher.belongsToMany(Subject,{through: 'teacher_subject',onDelete : 'cascade'});
+Subject.belongsToMany(Teacher,{through: 'teacher_subject',onDelete : 'cascade'});
 
 Lecture.belongsTo(Batch)
 Batch.hasMany(Lecture)
@@ -109,7 +110,7 @@ Batch.belongsToMany(Student,{through: 'Student_Batch',onDelete : 'cascade'});
 (async function(){
     try{
         await db.authenticate()
-        await db.sync({force: false})
+        await db.sync({force:false})
             .then(() => {
                 console.log("Database Synchronised");
             })

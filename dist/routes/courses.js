@@ -8,7 +8,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var express_1 = __importDefault(require("express"));
 var coursesAction_1 = require("../models/coursesAction");
-var route = express_1.default.Router();
+var route = express_1.default.Router({ mergeParams: true });
+var batches_1 = __importDefault(require("./batches"));
+var subjects_1 = __importDefault(require("./subjects"));
+var routes_ = {
+    batch: batches_1.default,
+    subjects: subjects_1.default
+};
 route.get('/', function (req, res) {
     coursesAction_1.getCourses().then(function (courses) {
         res.status(200).send(courses);
@@ -28,24 +34,7 @@ route.get('/:id', function (req, res) {
         res.status(200).send(courses);
     });
 });
-route.get('/:id/batches', function (req, res) {
-    coursesAction_1.getBatches(req.params.id).then(function (batch) {
-        res.status(200).send(batch);
-    });
-});
-route.post('/:id/batches', function (req, res) {
-    var newBatch = {
-        id: 0,
-        name: req.body.name
-    };
-    coursesAction_1.addBatch(req.params.id, newBatch).then(function (batch) {
-        res.status(200).send(batch);
-    });
-});
-route.get('/:id/batches/:bid', function (req, res) {
-    coursesAction_1.getBatcheById(req.params.id, req.params.bid).then(function (batch) {
-        res.status(200).send(batch);
-    });
-});
+route.use('/:id/batches', routes_.batch);
+route.use('/:id/subjects', routes_.subjects);
 exports.default = route;
 //# sourceMappingURL=courses.js.map

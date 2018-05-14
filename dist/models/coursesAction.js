@@ -55,6 +55,61 @@ function getCourses() {
     });
 }
 exports.getCourses = getCourses;
+function getSubjects(id) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Course.findAll({
+                        where: {
+                            id: id
+                        },
+                        include: [{
+                                model: db_1.models.Subject,
+                            }]
+                    })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getSubjects = getSubjects;
+function getTeachers() {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Teacher.findAll({
+                        include: [{
+                                model: db_1.models.Subject
+                            }]
+                    })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getTeachers = getTeachers;
+function getTeacherById(id) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Teacher.findById(id)];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getTeacherById = getTeacherById;
+function getSubjectById(id) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Subject.findById(id)];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getSubjectById = getSubjectById;
 function getBatches(id) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -74,7 +129,7 @@ function getBatches(id) {
     });
 }
 exports.getBatches = getBatches;
-function getBatcheById(id, bid) {
+function getBatchById(id, bid) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             switch (_a.label) {
@@ -95,7 +150,7 @@ function getBatcheById(id, bid) {
         });
     });
 }
-exports.getBatcheById = getBatcheById;
+exports.getBatchById = getBatchById;
 function getCoursesById(id) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -107,6 +162,101 @@ function getCoursesById(id) {
     });
 }
 exports.getCoursesById = getCoursesById;
+function getLectures(id, bid) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Batch.findOne({
+                        where: {
+                            id: bid
+                        },
+                        attributes: [],
+                        include: [{
+                                model: db_1.models.Course,
+                                where: {
+                                    id: id
+                                },
+                                attributes: [],
+                            }, {
+                                attributes: ['id', 'name'],
+                                model: db_1.models.Lecture,
+                                include: [{
+                                        model: db_1.models.Subject
+                                    }, {
+                                        model: db_1.models.Teacher
+                                    }]
+                            }]
+                    })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getLectures = getLectures;
+function getLectureById(id, bid, lectureId) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Batch.findOne({
+                        where: {
+                            id: bid
+                        },
+                        attributes: [],
+                        include: [{
+                                model: db_1.models.Course,
+                                where: {
+                                    id: id
+                                },
+                                attributes: [],
+                            }, {
+                                attributes: ['id', 'name'],
+                                model: db_1.models.Lecture,
+                                where: {
+                                    id: lectureId
+                                },
+                                include: [{
+                                        model: db_1.models.Subject
+                                    }, {
+                                        model: db_1.models.Teacher
+                                    }]
+                            }]
+                    })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getLectureById = getLectureById;
+function getBatchTeachers(id, bid) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, db_1.models.Batch.findOne({
+                        where: {
+                            id: bid
+                        },
+                        attributes: [],
+                        include: [{
+                                model: db_1.models.Course,
+                                where: {
+                                    id: id
+                                },
+                                attributes: [],
+                            }, {
+                                attributes: ['teacherId'],
+                                model: db_1.models.Lecture,
+                                include: [{
+                                        attributes: ['id', 'name'],
+                                        model: db_1.models.Teacher
+                                    }]
+                            }]
+                    })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.getBatchTeachers = getBatchTeachers;
 function addCourses(newCourse) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -120,6 +270,19 @@ function addCourses(newCourse) {
     });
 }
 exports.addCourses = addCourses;
+function addTeacher(newTeacher, subjectId) {
+    return new Promise(function (resolve, reject) {
+        db_1.models.Teacher.create({
+            name: newTeacher.name
+        }).then(function (teacher) {
+            getSubjectById(subjectId).then(function (subject) {
+                teacher.addSubject(subject);
+                resolve(teacher);
+            });
+        });
+    });
+}
+exports.addTeacher = addTeacher;
 function addBatch(batchId, newBatch) {
     return new Promise(function (resolve, reject) {
         db_1.models.Batch.create({
@@ -133,4 +296,36 @@ function addBatch(batchId, newBatch) {
     });
 }
 exports.addBatch = addBatch;
+function addSubject(courseId, newSubject) {
+    return new Promise(function (resolve, reject) {
+        db_1.models.Subject.create({
+            name: newSubject.name
+        }).then(function (subject) {
+            getCoursesById(courseId).then(function (course) {
+                course.addSubject(subject);
+                resolve(subject);
+            });
+        });
+    });
+}
+exports.addSubject = addSubject;
+function addLecture(courseId, batchId, subjectId, teacherId, newlecture) {
+    return new Promise(function (resolve, reject) {
+        db_1.models.Lecture.create({
+            name: newlecture.name
+        }).then(function (lecture) {
+            getBatchById(courseId, batchId).then(function (batch) {
+                getSubjectById(subjectId).then(function (subject) {
+                    getTeacherById(teacherId).then(function (teacher) {
+                        batch.addLecture(lecture);
+                        subject.setLecture(lecture);
+                        teacher.setLecture(lecture);
+                        resolve(lecture);
+                    });
+                });
+            });
+        });
+    });
+}
+exports.addLecture = addLecture;
 //# sourceMappingURL=coursesAction.js.map
