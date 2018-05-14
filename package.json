@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "prestart": "npm run build",
-    "start": "node dist/server.js"
+    "postinstall": "npm run typings && npm run compile",
   },
   "author": "Manhar Gupta",
   "license": "ISC",
@@ -29,7 +27,8 @@
     "@types/sequelize": "^4.27.15"
   },
   "engines": {
-    "node":"8.11.1"
+    "node":"8.11.1",
+    "npm":"5.6.0"
   },
   "repository": {
     "type": "git",

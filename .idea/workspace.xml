@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ae09bcb3-bc67-46a7-af68-859ce1310e45" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/batchesActions.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/coursesActions.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/StudentsRouteActions/studentsActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/StudentsRouteActions/studentsActions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/db.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/courses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/courses.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/courses.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/students.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/students.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/students.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/studentsRoutes/students.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/studentsRoutes/students.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/studentsRoutes/students.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/studentsRoutes/students.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/coursesActions.ts" afterDir="false" />
@@ -56,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="126">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -69,12 +55,12 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -165,9 +151,9 @@
         <option value="$PROJECT_DIR$/src/models/db.ts" />
         <option value="$PROJECT_DIR$/src/models/CoursesRouteActions/batchesActions.ts" />
         <option value="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/server.ts" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -339,26 +325,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526274880664</updated>
-      <workItem from="1526274882347" duration="31519000" />
+      <workItem from="1526274882347" duration="31764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31519000" />
+    <option name="totallyTimeSpent" value="31764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27198917" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32882273" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -588,17 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -610,6 +589,13 @@
             <element signature="e#33#63#0" expanded="true" />
             <element signature="e#111#168#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
