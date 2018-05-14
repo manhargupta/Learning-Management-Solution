@@ -120,6 +120,61 @@ var BatchesService = /** @class */ (function () {
             });
         });
     };
+    BatchesService.getBatchStudents = function (cid, bid) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Batch.findAll({
+                            where: {
+                                id: bid
+                            },
+                            attributes: [],
+                            include: [{
+                                    model: db_1.models.Course,
+                                    where: {
+                                        id: cid
+                                    },
+                                    attributes: []
+                                }, {
+                                    model: db_1.models.Student,
+                                    attributes: ['id', 'name']
+                                }]
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    BatchesService.updateBatch = function (updateBatch) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Batch.update({
+                            name: updateBatch.name
+                        }, {
+                            where: {
+                                id: updateBatch.id
+                            }
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    BatchesService.deleteBatch = function (deleteBatch) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, db_1.models.Batch.destroy({
+                            where: {
+                                id: deleteBatch.id
+                            }
+                        })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
     return BatchesService;
 }());
 exports.BatchesService = BatchesService;

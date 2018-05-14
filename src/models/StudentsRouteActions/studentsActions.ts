@@ -1,5 +1,5 @@
 import {models} from "../db";
-import {IBatch, IStudent} from "../modelsI";
+import {IBatch, ICourse, IStudent} from "../modelsI";
 
 let Student = models.Student;
 
@@ -29,7 +29,7 @@ export class StudentService {
         return await models.Student.findById(id);
     }
 
-    public static async deleteUserById(id: number): Promise<number | null> {
+    public static async deleteUserById(id: number): Promise<number> {
 
         return await  models.Student.destroy({
             where: {
@@ -38,7 +38,7 @@ export class StudentService {
         });
     }
 
-    public static async updateStudent(updateStudent:IStudent): Promise<any | null> {
+    public static async updateStudent(updateStudent:IStudent): Promise<[number,IStudent[]]> {
         return await Student.update({
             name: updateStudent.name
         }, {

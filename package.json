@@ -27,5 +27,17 @@
     "@types/passport": "^0.4.5",
     "@types/passport-local": "^1.0.33",
     "@types/sequelize": "^4.27.15"
-  }
+  },
+  "engines": {
+    "node":"8.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manhargupta/Learning-Management-Solution"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }

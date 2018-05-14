@@ -1,4 +1,4 @@
-import {IBatch} from "../modelsI";
+import {IBatch, ICourse, IStudent} from "../modelsI";
 import {models} from "../db";
 import {CourseService} from "./coursesActions";
 
@@ -66,5 +66,42 @@ export class BatchesService {
                 })
             })
         })
+    }
+
+    public static async getBatchStudents(cid:number,bid:number): Promise<IBatch[] | null> {
+        return await models.Batch.findAll({
+            where:{
+                id:bid
+            },
+            attributes:[],
+            include: [{
+                model: models.Course,
+                where:{
+                    id:cid
+                },
+                attributes:[]
+            },{
+                model:models.Student,
+                attributes:['id','name']
+            }]
+        })
+    }
+
+    public static async updateBatch(updateBatch:IBatch):Promise<[number,IBatch[]]> {
+        return await models.Batch.update({
+            name: updateBatch.name
+        }, {
+            where: {
+                id: updateBatch.id
+            }
+        });
+    }
+
+    public static async deleteBatch(deleteBatch:IBatch):Promise<number> {
+        return await models.Batch.destroy({
+            where: {
+                id: deleteBatch.id
+            }
+        });
     }
 }

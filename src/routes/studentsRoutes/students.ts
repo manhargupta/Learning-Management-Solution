@@ -73,8 +73,8 @@ route.put('/:id', (req: Request, res: Response) => {
         name:req.body.name
     }
 
-    StudentService.updateStudent(updateStudent).then((result) => {
-        if (result == 0)
+    StudentService.updateStudent(updateStudent).then((result:[number,IStudent[]]) => {
+        if (result[0] == 0)
             throw Error("Update failed No Student found for id" + updateStudent.id);
         res.status(200).json(result);
     }).catch(err => {

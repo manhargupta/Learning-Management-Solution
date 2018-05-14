@@ -10,8 +10,8 @@ var express_1 = __importDefault(require("express"));
 var batchesActions_1 = require("../../models/CoursesRouteActions/batchesActions");
 var route = express_1.default.Router({ mergeParams: true });
 route.get('/', function (req, res) {
-    batchesActions_1.BatchesService.getBatchTeachers(req.params.id, req.params.bid).then(function (batch) {
-        res.status(200).send(batch.lectures);
+    batchesActions_1.BatchesService.getBatchStudents(req.params.id, req.params.bid).then(function (students) {
+        res.status(200).send(students);
     });
 });
 exports.default = route;
