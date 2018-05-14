@@ -11,13 +11,14 @@
   "author": "Manhar Gupta",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^2.5.5",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "mysql2": "^1.5.3",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "sequelize": "^4.37.6",
-    "core-js": "^2.5.5"
+    "sqlite3": "^4.0.0"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.46",

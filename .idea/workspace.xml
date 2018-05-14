@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae09bcb3-bc67-46a7-af68-859ce1310e45" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/CoursesRouteActions/lectureActions.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/batches.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/lectures.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/lectures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/coursesRoutes/lectures.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routes/coursesRoutes/lectures.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/db.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/db.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/server.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CoursesRouteActions/lectureActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/batches.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/coursesRoutes/lectures.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -81,23 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/coursesRoutes/students.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="e#33#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="311">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#33#63#0" expanded="true" />
                 <element signature="e#111#168#0" expanded="true" />
@@ -109,8 +91,8 @@
       <file leaf-file-name="db.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/db.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="e#33#67#0" expanded="true" />
               </folding>
@@ -364,12 +346,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526274880664</updated>
-      <workItem from="1526274882347" duration="34599000" />
+      <workItem from="1526274882347" duration="35504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34599000" />
+    <option name="totallyTimeSpent" value="35504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -380,7 +362,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27198917" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28281462" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32882273" />
@@ -615,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="311">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#33#63#0" expanded="true" />
             <element signature="e#111#168#0" expanded="true" />
@@ -624,10 +606,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/db.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="e#33#67#0" expanded="true" />
           </folding>

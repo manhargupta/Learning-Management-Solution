@@ -11,14 +11,14 @@ declare global {
     };
 }
 
-const db = new Sequelize('lms', 'heroku', 'heroku009$', {
-    host: 'heroku.cde284icbqmy.us-east-2.rds.amazonaws.com ',
-    dialect: 'mysql',
+const db = new Sequelize('lms', '', '', {
+    dialect: 'sqlite',
     pool: {
         max: 5,
-        min: 1,
+        min: 0,
         idle: 5000
-    }
+    },
+    storage: './lms.sqlite'
 });
 
 const courseAttr: SequelizeAttributes<ICourse> = {

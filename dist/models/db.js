@@ -42,14 +42,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Author : Manhar Gupta
  */
 var sequelize_1 = __importDefault(require("sequelize"));
-var db = new sequelize_1.default('lms', 'manhargupta', 'password', {
+var db = new sequelize_1.default('lms', '', '', {
     host: 'localhost',
-    dialect: 'mysql',
+    dialect: 'sqlite',
     pool: {
         max: 5,
         min: 0,
         idle: 5000
-    }
+    },
+    storage: './lms.sqlite'
 });
 exports.db = db;
 var courseAttr = {
