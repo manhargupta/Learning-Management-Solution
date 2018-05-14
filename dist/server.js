@@ -23,7 +23,7 @@ var route = {
 app.use('/courses', route.course);
 app.use('/teachers', route.teachers);
 app.use('/students', route.students);
-app.listen(7777, function () {
+app.listen(process.env.PORT, function () {
     console.log('server running on port 7777');
 });
 //# sourceMappingURL=server.js.map

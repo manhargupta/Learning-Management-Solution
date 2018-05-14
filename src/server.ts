@@ -25,6 +25,6 @@ app.use('/students',route.students)
 
 
 
-app.listen(7777,()=>{
+app.listen(process.env.PORT,()=>{
     console.log('server running on port 7777')
 });
