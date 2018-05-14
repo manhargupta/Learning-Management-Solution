@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run typings && npm run compile"
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "start": "node build/index.js"
   },
   "author": "Manhar Gupta",
   "license": "ISC",
