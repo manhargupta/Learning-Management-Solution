@@ -8,6 +8,7 @@ import coursesRoute from './routes/coursesRoutes/courses'
 import teachersRoute from './routes/teachersRoutes/teachers'
 import studentsRoute from './routes/studentsRoutes/students'
 import subjectsRoute from './routes/subjectRoutes/subject'
+import batchesRoutes from './routes/batchesRoutes/batches'
 var cors = require('cors')
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -18,13 +19,16 @@ const route = {
     course : coursesRoute,
     teachers:teachersRoute,
     students:studentsRoute,
-    subjects:subjectsRoute
+    subjects:subjectsRoute,
+    batches:batchesRoutes
 }
 
 app.use('/courses',route.course)
 app.use('/teachers',route.teachers)
 app.use('/students',route.students)
- app.use('/subjects',route.subjects)
+app.use('/subjects',route.subjects)
+app.use('/batches',route.batches)
+
 
 
 
