@@ -58,12 +58,12 @@ route.delete('/:lid', (req:Request, res:Response) => {
     })
 });
 
-route.post('/:sid/:tid', (req:Request, res:Response) => {
+route.post('/:tid', (req:Request, res:Response) => {
     let newLecture:Ilecture={
         id:0,
         name:req.body.name,
     }
-    LectureService.addLecture(req.params.id,req.params.bid,req.params.sid,req.params.tid,newLecture).then((lecture:Ilecture|null)=>{
+    LectureService.addLecture(req.params.id,req.params.bid,req.params.tid,newLecture).then((lecture:Ilecture|null)=>{
         res.status(200).send(lecture);
     })
 });

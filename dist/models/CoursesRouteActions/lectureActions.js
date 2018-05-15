@@ -37,7 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var db_1 = require("../db");
 var batchesActions_1 = require("./batchesActions");
-var subjectActions_1 = require("./subjectActions");
 var teachersActions_1 = require("../teachersRouteActions/teachersActions");
 var LectureService = /** @class */ (function () {
     function LectureService() {
@@ -61,9 +60,10 @@ var LectureService = /** @class */ (function () {
                                     attributes: ['id', 'name'],
                                     model: db_1.models.Lecture,
                                     include: [{
-                                            model: db_1.models.Subject
-                                        }, {
-                                            model: db_1.models.Teacher
+                                            model: db_1.models.Teacher,
+                                            include: [{
+                                                    model: db_1.models.Subject
+                                                }]
                                         }]
                                 }]
                         })];
@@ -105,19 +105,16 @@ var LectureService = /** @class */ (function () {
             });
         });
     };
-    LectureService.addLecture = function (courseId, batchId, subjectId, teacherId, newlecture) {
+    LectureService.addLecture = function (courseId, batchId, teacherId, newlecture) {
         return new Promise(function (resolve, reject) {
             db_1.models.Lecture.create({
                 name: newlecture.name
             }).then(function (lecture) {
                 batchesActions_1.BatchesService.getBatchById(courseId, batchId).then(function (batch) {
-                    subjectActions_1.SubjectService.getSubjectById(subjectId).then(function (subject) {
-                        teachersActions_1.TeachersService.getTeacherById(teacherId).then(function (teacher) {
-                            batch.addLecture(lecture);
-                            subject.setLecture(lecture);
-                            teacher.setLecture(lecture);
-                            resolve(lecture);
-                        });
+                    teachersActions_1.TeachersService.getTeacherById(teacherId).then(function (teacher) {
+                        batch.addLecture(lecture);
+                        teacher.setLecture(lecture);
+                        resolve(lecture);
                     });
                 });
             });

@@ -23,9 +23,10 @@ export class LectureService {
                 attributes:['id','name'],
                 model:models.Lecture,
                 include:[{
-                    model:models.Subject
-                },{
-                    model:models.Teacher
+                    model:models.Teacher,
+                    include:[{
+                        model:models.Subject
+                    }]
                 }]
 
             }]
@@ -59,19 +60,16 @@ export class LectureService {
         })
     }
 
-    public static addLecture(courseId:number,batchId:number,subjectId:number,teacherId:number,newlecture:Ilecture):Promise<Ilecture | null> {
+    public static addLecture(courseId:number,batchId:number,teacherId:number,newlecture:Ilecture):Promise<Ilecture | null> {
         return new Promise<Ilecture|null>((resolve,reject)=>{
             models.Lecture.create({
                 name: newlecture.name
             }).then((lecture:any)=>{
                 BatchesService.getBatchById(courseId,batchId).then((batch:any)=>{
-                    SubjectService.getSubjectById(subjectId).then((subject:any)=>{
-                        TeachersService.getTeacherById(teacherId).then((teacher:any)=>{
-                            batch.addLecture(lecture);
-                            subject.setLecture(lecture)
-                            teacher.setLecture(lecture)
-                            resolve(lecture)
-                        })
+                    TeachersService.getTeacherById(teacherId).then((teacher:any)=>{
+                        batch.addLecture(lecture);
+                        teacher.setLecture(lecture)
+                        resolve(lecture)
                     })
                 })
             })

@@ -52,12 +52,12 @@ route.delete('/:lid', function (req, res) {
         res.status(400).json(functions_1.default(err.toString()));
     });
 });
-route.post('/:sid/:tid', function (req, res) {
+route.post('/:tid', function (req, res) {
     var newLecture = {
         id: 0,
         name: req.body.name,
     };
-    lectureActions_1.LectureService.addLecture(req.params.id, req.params.bid, req.params.sid, req.params.tid, newLecture).then(function (lecture) {
+    lectureActions_1.LectureService.addLecture(req.params.id, req.params.bid, req.params.tid, newLecture).then(function (lecture) {
         res.status(200).send(lecture);
     });
 });
