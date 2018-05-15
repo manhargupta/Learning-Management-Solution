@@ -13,8 +13,10 @@ var courses_1 = __importDefault(require("./routes/coursesRoutes/courses"));
 var teachers_1 = __importDefault(require("./routes/teachersRoutes/teachers"));
 var students_1 = __importDefault(require("./routes/studentsRoutes/students"));
 var subject_1 = __importDefault(require("./routes/subjectRoutes/subject"));
+var cors = require('cors');
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.json());
+app.use(cors());
 app.use('/', express_1.default.static(path_1.default.join(__dirname, "../public")));
 var route = {
     course: courses_1.default,

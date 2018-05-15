@@ -8,10 +8,10 @@ import coursesRoute from './routes/coursesRoutes/courses'
 import teachersRoute from './routes/teachersRoutes/teachers'
 import studentsRoute from './routes/studentsRoutes/students'
 import subjectsRoute from './routes/subjectRoutes/subject'
-
+var cors = require('cors')
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+app.use(cors())
 app.use('/',express.static(path.join(__dirname,"../public")))
 
 const route = {
