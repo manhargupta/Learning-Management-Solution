@@ -16,6 +16,15 @@ route.get('/', function (req, res) {
         res.status(200).json(students);
     });
 });
+route.post('/', function (req, res) {
+    var newStudent = {
+        id: 0,
+        name: req.body.name
+    };
+    studentsActions_1.StudentService.addSingleStudent(newStudent).then(function (student) {
+        res.status(200).json(student);
+    });
+});
 route.post('/:cid/:bid', function (req, res) {
     var newStudent = {
         id: 0,

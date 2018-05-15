@@ -1,5 +1,6 @@
 import {models} from "../db";
 import {IBatch, ICourse, IStudent} from "../modelsI";
+import {notEqual} from "assert";
 
 let Student = models.Student;
 
@@ -10,6 +11,14 @@ export class StudentService {
         return new Promise<IStudent | null>((resolve, reject) => {
             Student.create({name: newStudent.name}).then((student:any) => {
                 student.addBatch(batch)
+                resolve(student);
+            })
+        })
+    }
+
+    public static async addSingleStudent(newStudent: IStudent): Promise<IBatch | IStudent | null> {
+        return new Promise<IStudent | null>((resolve, reject) => {
+            Student.create({name: newStudent.name}).then((student:any) => {
                 resolve(student);
             })
         })

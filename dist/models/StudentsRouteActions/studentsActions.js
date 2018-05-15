@@ -52,6 +52,17 @@ var StudentService = /** @class */ (function () {
             });
         });
     };
+    StudentService.addSingleStudent = function (newStudent) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                return [2 /*return*/, new Promise(function (resolve, reject) {
+                        Student.create({ name: newStudent.name }).then(function (student) {
+                            resolve(student);
+                        });
+                    })];
+            });
+        });
+    };
     StudentService.getStudents = function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {

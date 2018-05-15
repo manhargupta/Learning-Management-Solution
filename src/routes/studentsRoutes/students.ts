@@ -21,7 +21,18 @@ route.get('/', (req: Request, res: Response) => {
     })
 })
 
+route.post('/', (req: Request, res: Response) => {
 
+    let newStudent:IStudent={
+        id:0,
+        name:req.body.name
+    }
+
+    StudentService.addSingleStudent(newStudent).then((student: IStudent | null) => {
+        res.status(200).json(student);
+    })
+
+})
 route.post('/:cid/:bid', (req: Request, res: Response) => {
 
     let newStudent:IStudent={
