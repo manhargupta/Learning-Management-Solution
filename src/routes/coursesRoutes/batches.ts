@@ -38,7 +38,8 @@ route.get('/', (req:Request, res:Response) => {
 route.post('/', (req:Request, res:Response) => {
     let newBatch:IBatch={
         id:0,
-        name:req.body.name
+        name:req.body.name,
+        batchdate:req.body.batchdate
     }
     BatchesService.addBatch(req.params.id,newBatch).then((batch:IBatch|null)=>{
         res.status(200).send(batch);
@@ -61,7 +62,8 @@ route.get('/:bid', (req:Request, res:Response) => {
 route.put('/:bid', (req:Request, res:Response) => {
     let updateBatch:IBatch={
         id:req.params.bid,
-        name:req.body.name
+        name:req.body.name,
+        batchdate:req.body.batchdate
     }
     BatchesService.updateBatch(updateBatch).then((batch:[number,IBatch[]])=>{
         if (batch[0]==0)
@@ -78,7 +80,9 @@ route.put('/:bid', (req:Request, res:Response) => {
 route.delete('/:bid', (req:Request, res:Response) => {
     let deleteBatch:IBatch={
         id:req.params.bid,
-        name:''
+        name:'',
+        batchdate:''
+
     }
     BatchesService.deleteBatch(deleteBatch).then((batch:number)=>{
         if (batch==0)

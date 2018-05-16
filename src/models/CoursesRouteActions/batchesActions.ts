@@ -58,7 +58,8 @@ export class BatchesService {
     public static addBatch(batchId:number,newBatch:IBatch):Promise<IBatch | null> {
         return new Promise<IBatch|null>((resolve,reject)=>{
             models.Batch.create({
-                name: newBatch.name
+                name: newBatch.name,
+                batchdate:newBatch.batchdate
             }).then((batch:IBatch)=>{
                 CourseService.getCoursesById(batchId).then((course:any)=>{
                     course.addBatch(batch)
@@ -89,7 +90,8 @@ export class BatchesService {
 
     public static async updateBatch(updateBatch:IBatch):Promise<[number,IBatch[]]> {
         return await models.Batch.update({
-            name: updateBatch.name
+            name: updateBatch.name,
+            batchdate:updateBatch.batchdate
         }, {
             where: {
                 id: updateBatch.id

@@ -26,7 +26,8 @@ route.get('/:lid', function (req, res) {
 route.put('/:lid', function (req, res) {
     var updateLecture = {
         id: req.params.lid,
-        name: req.body.name
+        name: req.body.name,
+        batchdate: req.body.batchdate
     };
     lectureActions_1.LectureService.updateLecture(updateLecture).then(function (batch) {
         if (batch[0] == 0)
@@ -42,7 +43,8 @@ route.put('/:lid', function (req, res) {
 route.delete('/:lid', function (req, res) {
     var updateLecture = {
         id: req.params.lid,
-        name: ''
+        name: '',
+        batchdate: ''
     };
     lectureActions_1.LectureService.deleteLecture(updateLecture).then(function (batch) {
         if (batch == 0)

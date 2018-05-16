@@ -30,7 +30,8 @@ route.get('/:lid', (req:Request, res:Response) => {
 route.put('/:lid', (req:Request, res:Response) => {
     let updateLecture:IBatch={
         id:req.params.lid,
-        name:req.body.name
+        name:req.body.name,
+        batchdate:req.body.batchdate
     }
     LectureService.updateLecture(updateLecture).then((batch:[number,Ilecture[]])=>{
         if (batch[0]==0)
@@ -47,7 +48,8 @@ route.put('/:lid', (req:Request, res:Response) => {
 route.delete('/:lid', (req:Request, res:Response) => {
     let updateLecture:IBatch={
         id:req.params.lid,
-        name:''
+        name:'',
+        batchdate:''
     }
     LectureService.deleteLecture(updateLecture).then((batch:number)=>{
         if (batch==0)

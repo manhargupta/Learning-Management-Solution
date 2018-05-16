@@ -111,7 +111,8 @@ var BatchesService = /** @class */ (function () {
     BatchesService.addBatch = function (batchId, newBatch) {
         return new Promise(function (resolve, reject) {
             db_1.models.Batch.create({
-                name: newBatch.name
+                name: newBatch.name,
+                batchdate: newBatch.batchdate
             }).then(function (batch) {
                 coursesActions_1.CourseService.getCoursesById(batchId).then(function (course) {
                     course.addBatch(batch);
@@ -150,7 +151,8 @@ var BatchesService = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, db_1.models.Batch.update({
-                            name: updateBatch.name
+                            name: updateBatch.name,
+                            batchdate: updateBatch.batchdate
                         }, {
                             where: {
                                 id: updateBatch.id

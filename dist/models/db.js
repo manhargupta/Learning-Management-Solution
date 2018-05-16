@@ -68,6 +68,7 @@ var batchAttr = {
         autoIncrement: true
     },
     name: sequelize_1.default.STRING,
+    batchdate: sequelize_1.default.DATE
 };
 var Batch = db.define('batch', batchAttr);
 var subjectAttr = {
@@ -130,7 +131,7 @@ Batch.belongsToMany(Student, { through: 'Student_Batch', onDelete: 'cascade' });
                     return [4 /*yield*/, db.authenticate()];
                 case 1:
                     _a.sent();
-                    return [4 /*yield*/, db.sync({ force: true })
+                    return [4 /*yield*/, db.sync({ force: false, alter: true })
                             .then(function () {
                             console.log("Database Synchronised");
                         })

@@ -39,6 +39,8 @@ const batchAttr: SequelizeAttributes<IBatch> = {
         autoIncrement: true
     },
     name:Sequelize.STRING,
+    batchdate:Sequelize.DATE
+
 };
 const Batch = db.define<IBatch,any>('batch', batchAttr);
 
@@ -111,7 +113,7 @@ Batch.belongsToMany(Student,{through: 'Student_Batch',onDelete : 'cascade'});
 (async function(){
     try{
         await db.authenticate()
-        await db.sync({force:false})
+        await db.sync({force:false,alter:true})
             .then(() => {
                 console.log("Database Synchronised");
             })

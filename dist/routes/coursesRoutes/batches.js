@@ -32,7 +32,8 @@ route.get('/', function (req, res) {
 route.post('/', function (req, res) {
     var newBatch = {
         id: 0,
-        name: req.body.name
+        name: req.body.name,
+        batchdate: req.body.batchdate
     };
     batchesActions_1.BatchesService.addBatch(req.params.id, newBatch).then(function (batch) {
         res.status(200).send(batch);
@@ -52,7 +53,8 @@ route.get('/:bid', function (req, res) {
 route.put('/:bid', function (req, res) {
     var updateBatch = {
         id: req.params.bid,
-        name: req.body.name
+        name: req.body.name,
+        batchdate: req.body.batchdate
     };
     batchesActions_1.BatchesService.updateBatch(updateBatch).then(function (batch) {
         if (batch[0] == 0)
@@ -68,7 +70,8 @@ route.put('/:bid', function (req, res) {
 route.delete('/:bid', function (req, res) {
     var deleteBatch = {
         id: req.params.bid,
-        name: ''
+        name: '',
+        batchdate: ''
     };
     batchesActions_1.BatchesService.deleteBatch(deleteBatch).then(function (batch) {
         if (batch == 0)
