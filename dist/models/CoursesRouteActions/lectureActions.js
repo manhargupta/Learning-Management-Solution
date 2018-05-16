@@ -113,7 +113,7 @@ var LectureService = /** @class */ (function () {
                 batchesActions_1.BatchesService.getBatchById(courseId, batchId).then(function (batch) {
                     teachersActions_1.TeachersService.getTeacherById(teacherId).then(function (teacher) {
                         batch.addLecture(lecture);
-                        teacher.setLecture(lecture);
+                        teacher.addLecture(lecture);
                         resolve(lecture);
                     });
                 });

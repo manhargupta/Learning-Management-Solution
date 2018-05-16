@@ -68,7 +68,7 @@ export class LectureService {
                 BatchesService.getBatchById(courseId,batchId).then((batch:any)=>{
                     TeachersService.getTeacherById(teacherId).then((teacher:any)=>{
                         batch.addLecture(lecture);
-                        teacher.setLecture(lecture)
+                        teacher.addLecture(lecture)
                         resolve(lecture)
                     })
                 })

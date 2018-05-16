@@ -103,7 +103,7 @@ Lecture.belongsTo(Subject)
 Subject.hasOne(Lecture)
 
 Lecture.belongsTo(Teacher)
-Teacher.hasOne(Lecture)
+Teacher.hasMany(Lecture)
 
 Student.belongsToMany(Batch,{through: 'Student_Batch',onDelete : 'cascade'});
 Batch.belongsToMany(Student,{through: 'Student_Batch',onDelete : 'cascade'});

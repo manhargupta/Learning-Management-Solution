@@ -117,7 +117,7 @@ Batch.hasMany(Lecture);
 Lecture.belongsTo(Subject);
 Subject.hasOne(Lecture);
 Lecture.belongsTo(Teacher);
-Teacher.hasOne(Lecture);
+Teacher.hasMany(Lecture);
 Student.belongsToMany(Batch, { through: 'Student_Batch', onDelete: 'cascade' });
 Batch.belongsToMany(Student, { through: 'Student_Batch', onDelete: 'cascade' });
 (function () {
@@ -130,7 +130,7 @@ Batch.belongsToMany(Student, { through: 'Student_Batch', onDelete: 'cascade' });
                     return [4 /*yield*/, db.authenticate()];
                 case 1:
                     _a.sent();
-                    return [4 /*yield*/, db.sync({ force: false })
+                    return [4 /*yield*/, db.sync({ force: true })
                             .then(function () {
                             console.log("Database Synchronised");
                         })
